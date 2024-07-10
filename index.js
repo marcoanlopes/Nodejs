@@ -1,4 +1,6 @@
-import * as fs from 'fs'
+import * as cowsay from "cowsay";
 
 
-console.log('chooo chooooooo!')
+let output = cowsay.say({"text":'Mooooooo choooooo!'});
+//let output2 = cowsay.think({"text": "mooooooo "})
+console.log(output1);
